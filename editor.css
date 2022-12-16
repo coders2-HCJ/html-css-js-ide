@@ -1,0 +1,31 @@
+html, body {
+  text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+textarea {
+	width: 32%;
+	float: top;
+	min-height: 250px;
+	overflow: scroll;
+	resize: none;
+	display: inline-block;
+	background: #EEE;
+	outline: none;
+	border: none;
+	font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+	font-size: 14px;
+}
+iframe {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 32em;
+	border: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: white;
+}
+#csssrc, #jssrc {font-size: 20px;}
