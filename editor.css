@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: black;
+  overflow: hidden;
 }
 
 textarea {
@@ -22,8 +23,9 @@ iframe {
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 32em;
+  height: 30em;
   border: none;
   background-color: white;
+  overflow: scroll;
 }
 #csssrc, #jssrc {font-size: 20px;}
